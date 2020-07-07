@@ -1,0 +1,27 @@
+
+/* ================================ FAQ STYLING ================================ */
+#faq section {
+    max-width: 1000px;
+}
+
+#faq li {
+    margin-bottom: 40px;
+}
+
+#faq h3 {
+    margin-bottom: 0;
+}
+
+#faq p {
+    text-align: justify;
+    margin-top: 8px;
+}
+
+#faq iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#faq a {
+    text-decoration: underline;
+}

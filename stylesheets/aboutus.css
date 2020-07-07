@@ -1,0 +1,157 @@
+
+/* ================================ ABOUT US STYLING ================================ */
+
+#about-us figure {
+    margin: 0;
+    width: 35%;
+}
+
+#about-us figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about {
+    display: flex;
+    width: 65%;
+}
+
+#about-container {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#about h2 {
+    line-height: 80%;
+    margin: 0 0 16px 24px;
+}
+
+#about p {
+    margin-left: 24px;
+    text-align: justify;
+}
+
+#about p:nth-of-type(1) {
+    margin-bottom: 32px;
+}
+
+
+/* ================================ CONTACT SECTION STYLING ================================ */
+
+#contact {
+    width: 35%;
+    margin-top: 64px;
+}
+
+#contact h2 {
+    margin-top: 0;
+    line-height: 80%;
+    text-align: center;
+}
+
+.contact-row {
+    margin-top: 16px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-row img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-row .contact-info {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contact-row .contact-info h3 {
+    margin: 8px 0;
+    line-height: 80%;
+}
+
+.contact-row .contact-info p {
+    margin: 0;
+    line-height: 80%;
+}
+
+
+/* ================================ PRODUCT SECTION STYLING ================================ */
+
+#products {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 65%;
+}
+
+#about-us #products h2 {
+    width: 100%;
+    text-align: center;
+    line-height: 80%;
+    height: 19px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.product-card {
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.product-card img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-card h3 {
+    text-align: center;
+    margin: 24px 0 10px 0;
+    line-height: 80%;
+}
+
+.product-card p {
+    margin: 0 8px 24px 8px;
+    text-align: center;
+}
+
+.product-card a {
+    justify-content: center;
+    padding: 5px 10px;
+    color: white;
+    background-color: #006600;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.product-card a:hover {
+    background-color: #009900;
+}
+
+.product-card .button-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.product-card span {
+    padding: 5px 10px;
+    background-color: #acb1b9;
+    border-radius: 5px;
+    /*text-align: center;*/
+    width: 100%;
+}

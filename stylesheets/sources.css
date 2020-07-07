@@ -1,0 +1,33 @@
+
+/* ================================ SOURCES STYLING ================================ */
+
+#sources {
+    justify-content: space-between;
+}
+
+#sources .sources-left {
+    width: 50%;
+}
+
+#sources h2 {
+    text-align: center;
+}
+
+#sources p {
+    margin: 0;
+}
+
+#sources a {
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+#sources .source {
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+#sources .terms {
+    font-weight: bold;
+    margin-bottom: 20px;
+}

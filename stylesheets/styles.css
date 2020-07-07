@@ -1,0 +1,198 @@
+
+/* ================================ GENERAL STYLING ================================ */
+
+body {
+    background-color: #FDFDFD;
+    margin: 0;
+    padding-bottom: 233px;
+    color: #273943;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #273943;
+}
+
+
+/* ================================ NAVBAR STYLING ================================ */
+
+nav {
+    height: 65px;
+    vertical-align: top;
+}
+
+.nav-buttons {
+    display: inline-block;
+    height: 65px;
+    line-height: 65px;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.button {
+    height: 100%;
+    vertical-align: middle;
+    display: inline;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.button a:hover {
+    text-decoration: underline;
+}
+
+.demo {
+    display: inline-block;
+    height: 50px;
+    float: right;
+    margin-right: 5%;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: #273943;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 8px;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.demo a {
+    color: #FDFDFD;
+}
+
+.demo:hover {
+    background-color: #395260;
+}
+
+#brand {
+    width:240px;
+    height: 65px;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    vertical-align: bottom;
+}
+
+#brand-name {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0 0 0 5px;
+    line-height: 65px;
+}
+
+
+/* ================================ FOOTER STYLING ================================ */
+
+footer {
+    width: 100%;
+    height: 233px;
+    margin: 0;
+    background-color: #2C2F34;
+    color: #FDFDFD;
+    position: absolute;
+    bottom: 0;
+}
+
+footer h3 {
+    display: inline;
+    margin-right: 5px;
+}
+
+footer a {
+    color: #acb1b9;
+}
+
+footer a:hover {
+    color: #FDFDFD;
+}
+
+.links {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright {
+    text-align: center;
+    color: #acb1b9;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+
+table {
+    margin-top: 25px;
+    margin-left: 18%;
+    margin-right: auto;
+    width: 75%;
+}
+
+th {
+    text-align: left;
+    font-size: 20px;
+    width: 25%;
+}
+
+#social {
+    width: 100px;
+}
+
+td {
+    color: #acb1b9;
+}
+
+
+/* ================================ REUSABLE COMPONENTS STYLING ================================ */
+
+.banner {
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.banner.banner-solid {
+    background-color: #426070;
+    border-bottom: 1px solid #acb1b9;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    width: 75%;
+    min-width: 1200px;
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.get-started {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #006600;
+    border-radius: 5px;
+    transition: 0.2s;
+    border: 0;
+}
+
+.get-started:hover {
+    background-color: #009900;
+}

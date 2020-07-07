@@ -1,0 +1,73 @@
+
+/* ================================ PRICING STYLING ================================ */
+
+.price-card {
+    border: 1px solid #d6d8dc;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: 0.2s;
+
+}
+.price-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price-card h1 {
+    margin-bottom: 0;
+}
+
+.price-card .description {
+    width: 80%;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.price-card .price {
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.price-card .price .monthly {
+    font-size: 14px;
+}
+
+.price-card tr {
+    border-top: 1px solid #acb1b9;
+}
+
+.price-card tr:nth-of-type(1) {
+    border: none;
+}
+
+.price-card .price-features-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.price-card .price-features-table .feature {
+    color: #273943;
+    font-size: 15px;
+    width: 70%;
+    text-align: left;
+}
+
+.price-card .price-features-table .yes {
+    color: #009900;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price-card .price-features-table .no {
+    font-size: 22px;
+    color: #757d8a;
+}

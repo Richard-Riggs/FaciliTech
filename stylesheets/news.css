@@ -1,0 +1,48 @@
+
+/* ================================ NEWS STYLING ================================ */
+
+#news section {
+    max-width: 1200px;
+}
+
+#news article {
+    padding: 0 16px 24px 16px;
+    margin-bottom: 24px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid #d6d8dc;
+}
+
+#news article:nth-of-type(4) {
+    border-bottom: none;
+}
+
+#news article img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+#news article .text-content {
+    padding-left: 16px;
+    width: 100%;
+}
+
+#news article h2 {
+    margin: 0;
+    line-height: 80%;
+    display: inline-block;
+}
+
+#news article time {
+    line-height: 80%;
+    float: right;
+    color: #acb1b9;
+}
+
+#news article p {
+    text-align: justify;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
